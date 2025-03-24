@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    
+    --primary: 190 100% 50%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 190 100% 50%;
+
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    background-color: #0A0A0A;
+    color: #E2E8F0;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0A0A0A;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 240, 255, 0.5);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 240, 255, 0.8);
+  }
+}
+
+@layer utilities {
+  .font-mono {
+    font-family: 'Fira Code', monospace;
+  }
+  
+  .font-display {
+    font-family: 'Rajdhani', sans-serif;
+  }
+  
+  .text-neon-blue {
+    color: #00F0FF;
+  }
+  
+  .text-neon-purple {
+    color: #9D4EDD;
+  }
+
+  .text-success {
+    color: #0AFF0A;
+  }
+
+  .text-warning {
+    color: #FFBB00;
+  }
+
+  .text-error {
+    color: #FF3E5B;
+  }
+
+  .bg-cyberpunk-black {
+    background-color: #0A0A0A;
+  }
+
+  .bg-cyberpunk-blue {
+    background-color: #0F172A;
+  }
+
+  .bg-neon-blue {
+    background-color: #00F0FF;
+  }
+
+  .shadow-neon-blue {
+    box-shadow: 0 0 15px 2px rgba(0, 240, 255, 0.7);
+  }
+
+  .shadow-neon-purple {
+    box-shadow: 0 0 15px 2px rgba(157, 78, 221, 0.7);
+  }
+
+  .cursor-blink {
+    animation: cursor-blink 1.2s infinite;
+  }
+
+  @keyframes cursor-blink {
+    0%, 49% {
+      opacity: 1;
+    }
+    50%, 100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes binary-flow {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+
+  @keyframes glitch {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: translateX(-3px);
+    }
+    20%, 40%, 60%, 80% {
+      transform: translateX(3px);
+    }
+  }
+
+  @keyframes glow-pulse {
+    0%, 100% {
+      box-shadow: 0 0 15px 2px rgba(0, 240, 255, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 30px 5px rgba(0, 240, 255, 0.9);
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-glitch {
+    animation: glitch 0.8s ease-in-out infinite;
+  }
+
+  .animate-glow-pulse {
+    animation: glow-pulse 2s ease-in-out infinite;
+  }
+
+  .animate-binary-flow {
+    animation: binary-flow 20s linear infinite;
+  }
+}

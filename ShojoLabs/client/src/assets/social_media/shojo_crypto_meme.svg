@@ -1,0 +1,191 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with cyber gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0026" />
+      <stop offset="100%" stop-color="#3a015c" />
+    </linearGradient>
+    
+    <!-- Glow filter for neon effect -->
+    <filter id="neon-glow-blue" x="-50%" y="-50%" width="200%" height="200%">
+      <feFlood flood-color="#00f0ff" result="flood" />
+      <feComposite in="flood" in2="SourceGraphic" operator="in" result="mask" />
+      <feGaussianBlur in="mask" stdDeviation="5" result="blurred" />
+      <feComposite in="SourceGraphic" in2="blurred" operator="over" />
+    </filter>
+    
+    <filter id="neon-glow-purple" x="-50%" y="-50%" width="200%" height="200%">
+      <feFlood flood-color="#9d4edd" result="flood" />
+      <feComposite in="flood" in2="SourceGraphic" operator="in" result="mask" />
+      <feGaussianBlur in="mask" stdDeviation="5" result="blurred" />
+      <feComposite in="SourceGraphic" in2="blurred" operator="over" />
+    </filter>
+    
+    <filter id="neon-glow-pink" x="-50%" y="-50%" width="200%" height="200%">
+      <feFlood flood-color="#f72585" result="flood" />
+      <feComposite in="flood" in2="SourceGraphic" operator="in" result="mask" />
+      <feGaussianBlur in="mask" stdDeviation="5" result="blurred" />
+      <feComposite in="SourceGraphic" in2="blurred" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Main background -->
+  <rect x="0" y="0" width="1200" height="675" fill="url(#bg-gradient)" />
+  
+  <!-- Grid lines -->
+  <g opacity="0.2">
+    {[0, 120, 240, 360, 480, 600, 720, 840, 960, 1080, 1200].map((x, i) => (
+      <line key={`vl-${i}`} x1={x} y1="0" x2={x} y2="675" stroke="#00f0ff" stroke-width="0.5" stroke-dasharray="4 4"/>
+    ))}
+    {[0, 135, 270, 405, 540, 675].map((y, i) => (
+      <line key={`hl-${i}`} x1="0" y1={y} x2="1200" y2={y} stroke="#00f0ff" stroke-width="0.5" stroke-dasharray="4 4"/>
+    ))}
+  </g>
+  
+  <!-- Crypto/stock chart line -->
+  <g transform="translate(150, 100) scale(0.9)">
+    <!-- Chart axes -->
+    <line x1="0" y1="300" x2="900" y2="300" stroke="#ffffff" stroke-width="2" />
+    <line x1="0" y1="0" x2="0" y2="300" stroke="#ffffff" stroke-width="2" />
+    
+    <!-- Chart lines -->
+    <path d="M0,250 
+             L100,240 
+             L200,260 
+             L300,200 
+             L400,150 
+             L500,100 
+             L540,120 
+             L580,80
+             L620,90
+             L660,40
+             L700,60
+             L740,20
+             L780,10
+             L820,5
+             L900,30" 
+          fill="none" stroke="#00f0ff" stroke-width="3" filter="url(#neon-glow-blue)" />
+    
+    <!-- Chart gradient fill -->
+    <linearGradient id="chart-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0" />
+    </linearGradient>
+    
+    <path d="M0,250 
+             L100,240 
+             L200,260 
+             L300,200 
+             L400,150 
+             L500,100 
+             L540,120 
+             L580,80
+             L620,90
+             L660,40
+             L700,60
+             L740,20
+             L780,10
+             L820,5
+             L900,30
+             L900,300
+             L0,300Z" 
+          fill="url(#chart-gradient)" />
+  </g>
+  
+  <!-- Anime-style worried trader character -->
+  <g transform="translate(200, 370)">
+    <!-- Nervous face -->
+    <circle cx="100" cy="100" r="80" fill="#0a0026" stroke="#9d4edd" stroke-width="2" />
+    
+    <!-- Sweat drop -->
+    <path d="M150,80 Q160,90 155,120" fill="none" stroke="#00f0ff" stroke-width="2" />
+    <circle cx="155" cy="120" r="5" fill="#00f0ff" />
+    
+    <!-- Worried eyes -->
+    <ellipse cx="70" cy="90" rx="15" ry="20" fill="#ffffff" />
+    <ellipse cx="130" cy="90" rx="15" ry="20" fill="#ffffff" />
+    <circle cx="70" cy="95" r="5" fill="#0a0026" />
+    <circle cx="130" cy="95" r="5" fill="#0a0026" />
+    
+    <!-- Worried mouth -->
+    <path d="M80,130 Q100,110 120,130" fill="none" stroke="#ffffff" stroke-width="2" />
+    
+    <!-- Hair -->
+    <path d="M30,70 Q50,20 100,20 Q150,20 170,70" fill="none" stroke="#9d4edd" stroke-width="3" />
+  </g>
+  
+  <!-- Anime-style AI assistant character -->
+  <g transform="translate(800, 370)">
+    <!-- Confident face -->
+    <circle cx="100" cy="100" r="80" fill="#0a0026" stroke="#00f0ff" stroke-width="2" />
+    
+    <!-- Cool eyes -->
+    <ellipse cx="70" cy="90" rx="15" ry="20" fill="#ffffff" />
+    <ellipse cx="130" cy="90" rx="15" ry="20" fill="#ffffff" />
+    <circle cx="70" cy="85" r="5" fill="#0a0026" />
+    <circle cx="130" cy="85" r="5" fill="#0a0026" />
+    
+    <!-- Confident smile -->
+    <path d="M70,120 Q100,150 130,120" fill="none" stroke="#f72585" stroke-width="3" filter="url(#neon-glow-pink)" />
+    
+    <!-- AI nodes on head -->
+    <circle cx="80" cy="50" r="8" fill="#00f0ff">
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="120" cy="50" r="8" fill="#00f0ff">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="100" cy="30" r="8" fill="#00f0ff">
+      <animate attributeName="opacity" values="1;0.7;1" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <line x1="80" y1="50" x2="100" y2="30" stroke="#00f0ff" stroke-width="1" />
+    <line x1="100" y1="30" x2="120" y2="50" stroke="#00f0ff" stroke-width="1" />
+  </g>
+  
+  <!-- Speech bubbles -->
+  <g>
+    <!-- Worried trader bubble -->
+    <path d="M350,400 Q340,350 330,400 L250,400 Q220,400 220,430 L220,480 Q220,510 250,510 L430,510 Q460,510 460,480 L460,430 Q460,400 430,400 Z" fill="#0a0026" stroke="#9d4edd" stroke-width="2" />
+    <text x="340" y="440" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#ffffff">
+      The market is crashing!
+    </text>
+    <text x="340" y="470" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#ffffff">
+      What should I do?!
+    </text>
+  </g>
+  
+  <g>
+    <!-- AI assistant bubble -->
+    <path d="M700,380 Q680,350 660,380 L580,380 Q550,380 550,410 L550,500 Q550,530 580,530 L800,530 Q830,530 830,500 L830,410 Q830,380 800,380 Z" fill="#0a0026" stroke="#00f0ff" stroke-width="2" />
+    <text x="690" y="420" font-family="monospace" font-size="18" fill="#00f0ff">
+      $ shojo --market-analysis
+    </text>
+    <text x="690" y="450" font-family="monospace" font-size="18" fill="#ffffff">
+      Have you tried turning your
+    </text>
+    <text x="690" y="480" font-family="monospace" font-size="18" fill="#ffffff">
+      portfolio off and on again?
+    </text>
+    <text x="690" y="510" font-family="monospace" font-size="18" fill="#f72585">
+      *cyberpunk music intensifies*
+    </text>
+  </g>
+  
+  <!-- Top caption -->
+  <g>
+    <text x="600" y="80" font-family="Impact, sans-serif" font-size="50" text-anchor="middle" fill="#ffffff" filter="url(#neon-glow-blue)">
+      WHEN YOU ASK SHOJO AI
+    </text>
+    <text x="600" y="140" font-family="Impact, sans-serif" font-size="50" text-anchor="middle" fill="#00f0ff">
+      FOR CRYPTO ADVICE
+    </text>
+  </g>
+  
+  <!-- Bottom banner -->
+  <g>
+    <rect x="150" y="580" width="900" height="60" rx="10" fill="#0a0026" stroke="#f72585" stroke-width="2" />
+    <text x="600" y="620" font-family="monospace" font-weight="bold" font-size="24" text-anchor="middle" fill="#ffffff">
+      $SHOJO: WHERE AI MEETS HUMOR • GITHUB.COM/SHOJOCO • COMING SOON TO A BLOCKCHAIN NEAR YOU
+    </text>
+  </g>
+</svg>

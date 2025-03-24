@@ -1,0 +1,155 @@
+<svg viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#0A0A0A" fillOpacity="0.5"/>
+  
+  <!-- Grid lines -->
+  <g opacity="0.15">
+    <path d="M0 100 L600 100" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <path d="M0 200 L600 200" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <path d="M0 300 L600 300" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <path d="M100 0 L100 400" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <path d="M200 0 L200 400" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <path d="M300 0 L300 400" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <path d="M400 0 L400 400" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <path d="M500 0 L500 400" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="4 4"/>
+  </g>
+  
+  <!-- Center point -->
+  <circle cx="300" cy="200" r="80" fill="url(#radial-gradient)" opacity="0.15"/>
+  <circle cx="300" cy="200" r="5" fill="#00F0FF">
+    <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="200" r="15" stroke="#00F0FF" stroke-width="0.5" fill="none" opacity="0.5">
+    <animate attributeName="r" values="15;25;15" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Network Nodes -->
+  <!-- Node 1 -->
+  <circle cx="150" cy="100" r="4" fill="#00F0FF">
+    <animate attributeName="opacity" values="1;0.2;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="100" r="8" stroke="#00F0FF" stroke-width="0.5" fill="none" opacity="0.3">
+    <animate attributeName="r" values="8;12;8" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Node 2 -->
+  <circle cx="450" cy="120" r="5" fill="#9D4EDD">
+    <animate attributeName="opacity" values="1;0.3;1" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="120" r="10" stroke="#9D4EDD" stroke-width="0.5" fill="none" opacity="0.3">
+    <animate attributeName="r" values="10;15;10" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Node 3 -->
+  <circle cx="200" cy="350" r="4.5" fill="#00F0FF">
+    <animate attributeName="opacity" values="1;0.25;1" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="350" r="9" stroke="#00F0FF" stroke-width="0.5" fill="none" opacity="0.3">
+    <animate attributeName="r" values="9;14;9" dur="4.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Node 4 -->
+  <circle cx="500" cy="300" r="3.5" fill="#00F0FF">
+    <animate attributeName="opacity" values="1;0.3;1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="300" r="7" stroke="#00F0FF" stroke-width="0.5" fill="none" opacity="0.3">
+    <animate attributeName="r" values="7;11;7" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Node 5 -->
+  <circle cx="100" cy="250" r="4" fill="#9D4EDD">
+    <animate attributeName="opacity" values="1;0.2;1" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="250" r="8" stroke="#9D4EDD" stroke-width="0.5" fill="none" opacity="0.3">
+    <animate attributeName="r" values="8;13;8" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Node 6 -->
+  <circle cx="380" cy="50" r="3" fill="#00F0FF">
+    <animate attributeName="opacity" values="1;0.4;1" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="380" cy="50" r="6" stroke="#00F0FF" stroke-width="0.5" fill="none" opacity="0.3">
+    <animate attributeName="r" values="6;10;6" dur="3.8s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Connection Lines -->
+  <line x1="300" y1="200" x2="150" y2="100" stroke="#00F0FF" stroke-width="1" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="4s" repeatCount="indefinite"/>
+  </line>
+  <line x1="300" y1="200" x2="450" y2="120" stroke="#9D4EDD" stroke-width="1" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3.5s" repeatCount="indefinite"/>
+  </line>
+  <line x1="300" y1="200" x2="200" y2="350" stroke="#00F0FF" stroke-width="1" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="4.5s" repeatCount="indefinite"/>
+  </line>
+  <line x1="300" y1="200" x2="500" y2="300" stroke="#00F0FF" stroke-width="1" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3.2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="300" y1="200" x2="100" y2="250" stroke="#9D4EDD" stroke-width="1" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="4.2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="300" y1="200" x2="380" y2="50" stroke="#00F0FF" stroke-width="1" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="3.8s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Secondary Connections -->
+  <line x1="150" y1="100" x2="380" y2="50" stroke="#00F0FF" stroke-width="0.5" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.05;0.3" dur="5s" repeatCount="indefinite"/>
+  </line>
+  <line x1="450" y1="120" x2="500" y2="300" stroke="#9D4EDD" stroke-width="0.5" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.05;0.3" dur="5.5s" repeatCount="indefinite"/>
+  </line>
+  <line x1="200" y1="350" x2="100" y2="250" stroke="#00F0FF" stroke-width="0.5" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.05;0.3" dur="6s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Data Packets -->
+  <!-- Packet 1 -->
+  <circle r="2" fill="#00F0FF">
+    <animateMotion path="M300,200 L150,100" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Packet 2 -->
+  <circle r="2" fill="#9D4EDD">
+    <animateMotion path="M300,200 L450,120" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Packet 3 -->
+  <circle r="2" fill="#00F0FF">
+    <animateMotion path="M300,200 L200,350" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Packet 4 -->
+  <circle r="2" fill="#00F0FF">
+    <animateMotion path="M300,200 L500,300" dur="2.1s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Packet 5 -->
+  <circle r="2" fill="#9D4EDD">
+    <animateMotion path="M300,200 L100,250" dur="2.3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Packet 6 -->
+  <circle r="2" fill="#00F0FF">
+    <animateMotion path="M300,200 L380,50" dur="1.7s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Binary Code Text -->
+  <text x="145" y="85" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">10110</text>
+  <text x="445" y="105" fill="#9D4EDD" font-family="monospace" font-size="8" opacity="0.7">01101</text>
+  <text x="195" y="335" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">11010</text>
+  <text x="495" y="285" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">00111</text>
+  <text x="90" y="235" fill="#9D4EDD" font-family="monospace" font-size="8" opacity="0.7">10011</text>
+  <text x="375" y="35" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">01010</text>
+  <text x="290" y="190" fill="#00F0FF" font-family="monospace" font-size="10" opacity="0.8">11011</text>
+  
+  <!-- Defs for gradients -->
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

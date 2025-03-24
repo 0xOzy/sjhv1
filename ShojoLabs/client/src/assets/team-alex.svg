@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#0F172A"/>
+  <circle cx="100" cy="100" r="95" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+  <circle cx="100" cy="100" r="85" stroke="#00F0FF" stroke-width="0.5" stroke-opacity="0.3" fill="none"/>
+  
+  <!-- Cyberpunk grid elements -->
+  <line x1="0" y1="100" x2="200" y2="100" stroke="#00F0FF" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="2 4"/>
+  <line x1="100" y1="0" x2="100" y2="200" stroke="#00F0FF" stroke-width="0.5" stroke-opacity="0.2" stroke-dasharray="2 4"/>
+  
+  <!-- Face shape -->
+  <circle cx="100" cy="90" r="55" fill="#151A2D"/>
+  <path d="M100 140 L85 170 L115 170 Z" fill="#151A2D"/>
+  
+  <!-- Hair -->
+  <path d="M60 85 C60 60 80 40 100 40 C120 40 140 60 140 85 L135 95 L128 65 L115 55 L100 50 L85 55 L72 65 L65 95 Z" fill="#D4A85A"/>
+  <path d="M65 95 L70 75 L80 62 L90 57 L100 55" stroke="#E5BE74" stroke-width="1" stroke-opacity="0.6"/>
+  
+  <!-- Cyberpunk elements over hair -->
+  <line x1="75" y1="50" x2="65" y2="40" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.7"/>
+  <line x1="125" y1="50" x2="135" y2="40" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.7"/>
+  <circle cx="65" cy="40" r="2" fill="#00F0FF" fill-opacity="0.8"/>
+  <circle cx="135" cy="40" r="2" fill="#00F0FF" fill-opacity="0.8"/>
+  
+  <!-- Face features -->
+  <ellipse cx="80" cy="85" rx="5" ry="6" fill="#0F172A"/>
+  <ellipse cx="120" cy="85" rx="5" ry="6" fill="#0F172A"/>
+  <ellipse cx="80" cy="85" rx="2" ry="3" fill="#00F0FF" fill-opacity="0.9"/>
+  <ellipse cx="120" cy="85" rx="2" ry="3" fill="#00F0FF" fill-opacity="0.9"/>
+  
+  <!-- Eyebrows -->
+  <path d="M75 78 L85 75" stroke="#D4A85A" stroke-width="2" stroke-linecap="round"/>
+  <path d="M115 75 L125 78" stroke="#D4A85A" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Mouth -->
+  <path d="M90 110 C95 115 105 115 110 110" stroke="#00F0FF" stroke-width="1.5" stroke-opacity="0.8" fill="none"/>
+  
+  <!-- Facial enhancements -->
+  <path d="M90 95 L110 95" stroke="#00F0FF" stroke-width="0.5" stroke-opacity="0.3" fill="none"/>
+  <path d="M65 85 L50 75" stroke="#00F0FF" stroke-width="0.8" stroke-opacity="0.5" stroke-dasharray="1 2"/>
+  <path d="M135 85 L150 75" stroke="#00F0FF" stroke-width="0.8" stroke-opacity="0.5" stroke-dasharray="1 2"/>
+  <circle cx="50" cy="75" r="1.5" fill="#00F0FF" fill-opacity="0.7"/>
+  <circle cx="150" cy="75" r="1.5" fill="#00F0FF" fill-opacity="0.7"/>
+  
+  <!-- Cyberpunk data points -->
+  <text x="48" y="70" fill="#00F0FF" font-family="monospace" font-size="5" opacity="0.8">01</text>
+  <text x="147" y="70" fill="#00F0FF" font-family="monospace" font-size="5" opacity="0.8">02</text>
+  
+  <!-- Binary code decoration -->
+  <text x="83" y="155" fill="#00F0FF" font-family="monospace" font-size="5" opacity="0.6">10110</text>
+  <text x="105" y="155" fill="#00F0FF" font-family="monospace" font-size="5" opacity="0.6">01001</text>
+</svg>

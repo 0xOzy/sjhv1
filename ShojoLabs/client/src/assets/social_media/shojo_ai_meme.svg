@@ -1,0 +1,135 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with cyber gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000000" />
+      <stop offset="100%" stop-color="#150054" />
+    </linearGradient>
+    
+    <!-- Glow filter for neon effect -->
+    <filter id="neon-glow-blue" x="-50%" y="-50%" width="200%" height="200%">
+      <feFlood flood-color="#00f0ff" result="flood" />
+      <feComposite in="flood" in2="SourceGraphic" operator="in" result="mask" />
+      <feGaussianBlur in="mask" stdDeviation="5" result="blurred" />
+      <feComposite in="SourceGraphic" in2="blurred" operator="over" />
+    </filter>
+    
+    <filter id="neon-glow-purple" x="-50%" y="-50%" width="200%" height="200%">
+      <feFlood flood-color="#9d4edd" result="flood" />
+      <feComposite in="flood" in2="SourceGraphic" operator="in" result="mask" />
+      <feGaussianBlur in="mask" stdDeviation="5" result="blurred" />
+      <feComposite in="SourceGraphic" in2="blurred" operator="over" />
+    </filter>
+    
+    <filter id="neon-glow-pink" x="-50%" y="-50%" width="200%" height="200%">
+      <feFlood flood-color="#f72585" result="flood" />
+      <feComposite in="flood" in2="SourceGraphic" operator="in" result="mask" />
+      <feGaussianBlur in="mask" stdDeviation="5" result="blurred" />
+      <feComposite in="SourceGraphic" in2="blurred" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Main background -->
+  <rect x="0" y="0" width="1200" height="675" fill="url(#bg-gradient)" />
+  
+  <!-- Binary code background pattern -->
+  <g opacity="0.1" font-family="monospace" font-size="14">
+    <text x="50" y="40" fill="#00f0ff">01001010 10010101 00101010</text>
+    <text x="150" y="70" fill="#00f0ff">10110101 01010101 10101010</text>
+    <text x="250" y="100" fill="#00f0ff">11001010 10101010 10101010</text>
+    <text x="350" y="130" fill="#00f0ff">01010101 01010101 01010101</text>
+    <text x="450" y="160" fill="#00f0ff">10101010 10101010 10101010</text>
+    <text x="550" y="190" fill="#00f0ff">01010101 01010101 01010101</text>
+    <text x="650" y="220" fill="#00f0ff">10101010 10101010 10101010</text>
+    <text x="750" y="250" fill="#00f0ff">01010101 01010101 01010101</text>
+    <text x="80" y="280" fill="#00f0ff">10101010 10101010 10101010</text>
+    <text x="180" y="310" fill="#00f0ff">01010101 01010101 01010101</text>
+    <text x="280" y="340" fill="#00f0ff">10101010 10101010 10101010</text>
+    <text x="380" y="370" fill="#00f0ff">01010101 01010101 01010101</text>
+    <text x="480" y="400" fill="#00f0ff">10101010 10101010 10101010</text>
+    <text x="580" y="430" fill="#00f0ff">01010101 01010101 01010101</text>
+    <text x="680" y="460" fill="#00f0ff">10101010 10101010 10101010</text>
+    <text x="780" y="490" fill="#00f0ff">01010101 01010101 01010101</text>
+    <text x="110" y="520" fill="#00f0ff">10101010 10101010 10101010</text>
+    <text x="210" y="550" fill="#00f0ff">01010101 01010101 01010101</text>
+    <text x="310" y="580" fill="#00f0ff">10101010 10101010 10101010</text>
+    <text x="410" y="610" fill="#00f0ff">01010101 01010101 01010101</text>
+    <text x="510" y="640" fill="#00f0ff">10101010 10101010 10101010</text>
+  </g>
+  
+  <!-- Anime-style character (simplified) -->
+  <g transform="translate(300, 120)">
+    <!-- Head -->
+    <circle cx="300" cy="200" r="150" fill="#0a0026" stroke="#9d4edd" stroke-width="3" />
+    
+    <!-- Eyes -->
+    <ellipse cx="240" cy="170" rx="25" ry="30" fill="#00f0ff" filter="url(#neon-glow-blue)" />
+    <ellipse cx="360" cy="170" rx="25" ry="30" fill="#00f0ff" filter="url(#neon-glow-blue)" />
+    
+    <!-- Pupils -->
+    <circle cx="240" cy="165" r="10" fill="#0a0026" />
+    <circle cx="360" cy="165" r="10" fill="#0a0026" />
+    
+    <!-- Eyebrows -->
+    <path d="M215,135 Q240,125 265,135" fill="none" stroke="#ffffff" stroke-width="3" />
+    <path d="M335,135 Q360,125 385,135" fill="none" stroke="#ffffff" stroke-width="3" />
+    
+    <!-- Mouth (smiling) -->
+    <path d="M250,240 Q300,280 350,240" fill="none" stroke="#f72585" stroke-width="3" filter="url(#neon-glow-pink)" />
+    
+    <!-- Hair (simplified anime style) -->
+    <path d="M150,170 L200,100 L250,70 L350,70 L400,100 L450,170" fill="none" stroke="#9d4edd" stroke-width="5" />
+    <path d="M150,190 C150,100 250,50 300,50 C350,50 450,100 450,190" fill="none" stroke="#9d4edd" stroke-width="5" />
+    
+    <!-- Neural network nodes on head (representing thinking) -->
+    <circle cx="230" cy="100" r="8" fill="#00f0ff" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="300" cy="80" r="8" fill="#f72585" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="370" cy="100" r="8" fill="#00f0ff" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Connections between nodes -->
+    <line x1="230" y1="100" x2="300" y2="80" stroke="#00f0ff" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="2s" repeatCount="indefinite" />
+    </line>
+    <line x1="300" y1="80" x2="370" y2="100" stroke="#f72585" stroke-width="2" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.1;0.6" dur="1.5s" repeatCount="indefinite" />
+    </line>
+  </g>
+
+  <!-- Speech bubble -->
+  <g>
+    <path d="M800,200 Q830,150 860,200 L950,200 Q980,200 980,230 L980,320 Q980,350 950,350 L710,350 Q680,350 680,320 L680,230 Q680,200 710,200 Z" fill="#0a0026" stroke="#00f0ff" stroke-width="3" />
+    <text x="830" y="250" font-family="Arial, sans-serif" font-weight="bold" font-size="28" text-anchor="middle" fill="#ffffff">
+      WHEN TRADITIONAL AI
+    </text>
+    <text x="830" y="290" font-family="Arial, sans-serif" font-weight="bold" font-size="28" text-anchor="middle" fill="#ffffff">
+      MEETS ANIME AESTHETICS
+    </text>
+  </g>
+  
+  <!-- Bottom caption -->
+  <g>
+    <rect x="200" y="420" width="800" height="180" rx="10" fill="#0a0026" stroke="#f72585" stroke-width="3" />
+    <text x="600" y="480" font-family="Impact, sans-serif" font-size="48" text-anchor="middle" fill="#ffffff">
+      OTHER AIs: "I'LL SOLVE YOUR PROBLEMS"
+    </text>
+    <text x="600" y="550" font-family="Impact, sans-serif" font-size="48" text-anchor="middle" fill="#00f0ff" filter="url(#neon-glow-blue)">
+      SHOJO AI: "I'LL SOLVE YOUR PROBLEMS
+    </text>
+    <text x="600" y="570" font-family="Impact, sans-serif" font-size="28" text-anchor="middle" fill="#9d4edd" filter="url(#neon-glow-purple)">
+      WITH STYLE AND COMMUNITY"
+    </text>
+  </g>
+  
+  <!-- Shojo Logo -->
+  <g>
+    <text x="1100" y="650" font-family="Arial, sans-serif" font-weight="bold" font-size="24" text-anchor="middle" fill="#ffffff">
+      @ShojoCo
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+Berikut adalah prompt yang lebih lengkap dan detail agar AI Agent Replit dapat memperbarui seluruh konten website **Shojo** sesuai dengan konsep baru tanpa merombak struktur utamanya.  
+
+---
+
+### **Prompt untuk AI Agent Replit**  
+
+**Tugas:**  
+Perbarui website **Shojo** agar mencerminkan **AI Research Lab & Community**, dengan fokus pada **Artificial General Intelligence (AGI)** berbasis **Cognitive AI** dan keamanan berbasis **Decentralized Identity (DID)**. Pastikan **struktur halaman tetap sama**, hanya konten yang diperbarui agar sesuai dengan konsep ini.  
+
+---
+
+## **🔹 Perubahan Utama**  
+### **1. Tagline & Hero Section**  
+> **The future of intelligence and secure AI collaboration.**  
+Shojo adalah laboratorium penelitian dan komunitas AI yang berfokus pada pengembangan **AI Generatif berbasis Cognitive Intelligence**. Kami membangun **Shojo AI Agent**, sistem yang dirancang untuk memahami dan beradaptasi lebih mirip dengan kecerdasan biologis daripada sekadar model statistik.  
+
+**🔹 Elemen Animasi:**  
+✅ **Animasi angka biner acak saat hover teks menu (seperti REI, tetapi dengan angka biner).**  
+✅ **Ilustrasi utama tetap karakter anime wanita (rambut hitam, rok panjang elegan, chill vibes, aesthetic).**  
+
+---
+
+### **2. About Us**  
+Shojo bukan sekadar organisasi riset AI biasa. Kami percaya bahwa **Artificial General Intelligence (AGI)** harus dikembangkan berdasarkan prinsip ilmiah yang mendasar, bukan sekadar model statistik berbasis data besar.  
+
+**🔹 Pendekatan Kami:**  
+- **Neural Architectures Inspired by Biology** – Mengembangkan sistem yang meniru memori semantik, pemrosesan saraf, dan adaptasi evolusioner.  
+- **AI & Cognitive Science** – Membangun AI yang benar-benar bisa berpikir, bukan hanya mencocokkan pola.  
+- **Decentralized & Secure** – Komunitas berbasis **DID (Decentralized Identity)**, memastikan keamanan dan anonimitas pengguna.  
+
+---
+
+### **3. Features**  
+🔹 **Shojo AI Agent** – Model AI berbasis kognisi yang dirancang untuk memahami dan memproses informasi secara mendalam.  
+🔹 **Private & Secure** – Sistem **DID** dan enkripsi untuk anonimitas dalam komunitas AI.  
+🔹 **Community-Driven Research** – Kolaborasi terbuka untuk riset AI berbasis prinsip ilmiah.  
+🔹 **Decentralized AI Development** – Menerapkan metode pengembangan AI tanpa ketergantungan pada satu entitas pusat.  
+
+---
+
+### **4. Stats**  
+📊 **100+ Peneliti & Kontributor AI**  
+🧠 **10+ Riset tentang Cognitive AI**  
+🔐 **Keamanan berbasis DID & Enkripsi**  
+🌍 **Komunitas global di berbagai bidang keilmuan**  
+
+---
+
+### **5. Roadmap**  
+🟢 **Q1 2025 - Shojo AI v1.0** → Pengembangan awal arsitektur AI berbasis cognition.  
+🟡 **Q2 2025 - Secure AI Community** → Implementasi DID & sistem keamanan komunitas AI.  
+🟡 **Q3 2025 - Developer Hub** → Dokumentasi & API untuk pengembang AI.  
+🟣 **Q4 2025 - Advanced Neural Architectures** → Eksplorasi model AI yang lebih mendekati kecerdasan biologis.  
+
+---
+
+### **6. Resources**  
+📚 **Documentation (Coming Soon)** – Panduan lengkap tentang arsitektur Shojo AI.  
+🛠 **API References (Coming Soon)** – Akses API untuk eksplorasi dan pengembangan AI.  
+💻 **Developer Hub (Coming Soon)** – Platform bagi pengembang untuk berkontribusi dalam penelitian AI.  
+📺 **Tutorials (Coming Soon)** – Video dan panduan interaktif untuk memahami Shojo AI.  
+
+---
+
+### **7. Legal & Compliance**  
+🔒 **Privacy Policy** – Kami menghargai privasi pengguna dengan sistem **DID & enkripsi end-to-end**.  
+📜 **Terms of Service** – Mengatur penggunaan platform Shojo untuk penelitian dan komunitas AI.  
+🛡 **Security & Compliance** – Standar keamanan tinggi untuk menjaga integritas sistem dan pengguna.  
+
+---
+
+## **🚀 Output yang Diharapkan:**  
+✅ **Website tetap sesuai struktur awal**, tetapi konten diperbarui dengan konsep AI Research & Secure Community.  
+✅ **Efek animasi angka biner untuk interaksi hover pada teks menu.**  
+✅ **Visual tetap clean, futuristik, dan anime-style aesthetic.**  
+✅ **Legal, About, dan semua halaman mengikuti konsep baru tanpa mengubah struktur navigasi.**  
+
+---
+
+🔥 Dengan prompt ini, AI Agent Replit akan **memperbarui seluruh konten Shojo** secara otomatis sesuai dengan konsep **AI Research Lab & Community**, tanpa mengubah struktur utama website. 🚀

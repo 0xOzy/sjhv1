@@ -1,0 +1,309 @@
+<svg width="1440" height="900" viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1440" height="900" fill="#0A0A0A"/>
+  
+  <!-- Grid lines -->
+  <g opacity="0.05">
+    <!-- Horizontal lines -->
+    <path d="M0 100 L1440 100" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M0 200 L1440 200" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M0 300 L1440 300" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M0 400 L1440 400" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M0 500 L1440 500" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M0 600 L1440 600" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M0 700 L1440 700" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M0 800 L1440 800" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    
+    <!-- Vertical lines -->
+    <path d="M100 0 L100 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M200 0 L200 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M300 0 L300 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M400 0 L400 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M500 0 L500 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M600 0 L600 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M700 0 L700 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M800 0 L800 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M900 0 L900 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M1000 0 L1000 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M1100 0 L1100 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M1200 0 L1200 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M1300 0 L1300 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+    <path d="M1400 0 L1400 900" stroke="#00F0FF" stroke-width="0.5" stroke-dasharray="8 12"/>
+  </g>
+  
+  <!-- Network Nodes and Connections -->
+  <g opacity="0.2">
+    <!-- Network Nodes -->
+    <!-- Node 1 -->
+    <circle cx="200" cy="150" r="3" fill="#00F0FF">
+      <animate attributeName="opacity" values="1;0.3;1" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 2 -->
+    <circle cx="500" cy="300" r="4" fill="#00F0FF">
+      <animate attributeName="opacity" values="1;0.2;1" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 3 -->
+    <circle cx="800" cy="200" r="3.5" fill="#9D4EDD">
+      <animate attributeName="opacity" values="1;0.4;1" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 4 -->
+    <circle cx="1100" cy="350" r="3" fill="#00F0FF">
+      <animate attributeName="opacity" values="1;0.3;1" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 5 -->
+    <circle cx="250" cy="500" r="4" fill="#00F0FF">
+      <animate attributeName="opacity" values="1;0.25;1" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 6 -->
+    <circle cx="600" cy="650" r="3" fill="#9D4EDD">
+      <animate attributeName="opacity" values="1;0.35;1" dur="4.8s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 7 -->
+    <circle cx="950" cy="550" r="3.5" fill="#00F0FF">
+      <animate attributeName="opacity" values="1;0.3;1" dur="5.2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 8 -->
+    <circle cx="1300" cy="700" r="4" fill="#00F0FF">
+      <animate attributeName="opacity" values="1;0.2;1" dur="4.7s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 9 -->
+    <circle cx="400" cy="800" r="3" fill="#9D4EDD">
+      <animate attributeName="opacity" values="1;0.3;1" dur="5.3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 10 -->
+    <circle cx="900" cy="750" r="3.5" fill="#00F0FF">
+      <animate attributeName="opacity" values="1;0.25;1" dur="4.9s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 11 -->
+    <circle cx="1200" cy="150" r="4" fill="#9D4EDD">
+      <animate attributeName="opacity" values="1;0.3;1" dur="5.1s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 12 -->
+    <circle cx="300" cy="350" r="3" fill="#00F0FF">
+      <animate attributeName="opacity" values="1;0.35;1" dur="4.6s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 13 -->
+    <circle cx="700" cy="450" r="3.5" fill="#00F0FF">
+      <animate attributeName="opacity" values="1;0.3;1" dur="4.4s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 14 -->
+    <circle cx="1000" cy="600" r="3" fill="#9D4EDD">
+      <animate attributeName="opacity" values="1;0.25;1" dur="5.6s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Node 15 -->
+    <circle cx="150" cy="700" r="4" fill="#00F0FF">
+      <animate attributeName="opacity" values="1;0.2;1" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Connection Lines -->
+    <line x1="200" y1="150" x2="500" y2="300" stroke="#00F0FF" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="500" y1="300" x2="800" y2="200" stroke="#00F0FF" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4.5s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="800" y1="200" x2="1100" y2="350" stroke="#9D4EDD" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="5s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="250" y1="500" x2="600" y2="650" stroke="#00F0FF" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4.2s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="600" y1="650" x2="950" y2="550" stroke="#9D4EDD" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4.8s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="950" y1="550" x2="1300" y2="700" stroke="#00F0FF" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="5.2s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="400" y1="800" x2="900" y2="750" stroke="#9D4EDD" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4.7s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="1200" y1="150" x2="800" y2="200" stroke="#9D4EDD" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="5.1s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="300" y1="350" x2="500" y2="300" stroke="#00F0FF" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4.6s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="700" y1="450" x2="950" y2="550" stroke="#00F0FF" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4.9s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="1000" y1="600" x2="900" y2="750" stroke="#9D4EDD" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="5.3s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="150" y1="700" x2="400" y2="800" stroke="#00F0FF" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="4.4s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="250" y1="500" x2="300" y2="350" stroke="#00F0FF" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="5.5s" repeatCount="indefinite"/>
+    </line>
+    
+    <line x1="700" y1="450" x2="800" y2="200" stroke="#00F0FF" stroke-width="0.5" opacity="0.3">
+      <animate attributeName="opacity" values="0.3;0.1;0.3" dur="5.6s" repeatCount="indefinite"/>
+    </line>
+    
+    <!-- Binary Code Text -->
+    <text x="190" y="140" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">10110</text>
+    <text x="490" y="290" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">01101</text>
+    <text x="790" y="190" fill="#9D4EDD" font-family="monospace" font-size="8" opacity="0.7">11010</text>
+    <text x="1090" y="340" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">00111</text>
+    <text x="240" y="490" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">10011</text>
+    <text x="590" y="640" fill="#9D4EDD" font-family="monospace" font-size="8" opacity="0.7">01010</text>
+    <text x="940" y="540" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">11100</text>
+    <text x="1290" y="690" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">00101</text>
+    <text x="390" y="790" fill="#9D4EDD" font-family="monospace" font-size="8" opacity="0.7">10110</text>
+    <text x="890" y="740" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">01011</text>
+    <text x="1190" y="140" fill="#9D4EDD" font-family="monospace" font-size="8" opacity="0.7">11001</text>
+    <text x="290" y="340" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">00110</text>
+    <text x="690" y="440" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">10101</text>
+    <text x="990" y="590" fill="#9D4EDD" font-family="monospace" font-size="8" opacity="0.7">01100</text>
+    <text x="140" y="690" fill="#00F0FF" font-family="monospace" font-size="8" opacity="0.7">11010</text>
+  </g>
+  
+  <!-- Animated binary columns -->
+  <g opacity="0.07">
+    <!-- Binary Column 1 -->
+    <text x="50" y="50" fill="#00F0FF" font-family="monospace" font-size="10" opacity="0.7">
+      <tspan x="50" dy="15">10101</tspan>
+      <tspan x="50" dy="15">01010</tspan>
+      <tspan x="50" dy="15">11001</tspan>
+      <tspan x="50" dy="15">00110</tspan>
+      <tspan x="50" dy="15">10011</tspan>
+      <tspan x="50" dy="15">01100</tspan>
+      <tspan x="50" dy="15">11010</tspan>
+      <animate attributeName="y" from="-100" to="950" dur="20s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Binary Column 2 -->
+    <text x="350" y="120" fill="#00F0FF" font-family="monospace" font-size="10" opacity="0.7">
+      <tspan x="350" dy="15">01101</tspan>
+      <tspan x="350" dy="15">10010</tspan>
+      <tspan x="350" dy="15">00111</tspan>
+      <tspan x="350" dy="15">11000</tspan>
+      <tspan x="350" dy="15">01011</tspan>
+      <tspan x="350" dy="15">10100</tspan>
+      <tspan x="350" dy="15">00101</tspan>
+      <animate attributeName="y" from="-150" to="950" dur="25s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Binary Column 3 -->
+    <text x="650" y="30" fill="#9D4EDD" font-family="monospace" font-size="10" opacity="0.7">
+      <tspan x="650" dy="15">11010</tspan>
+      <tspan x="650" dy="15">00101</tspan>
+      <tspan x="650" dy="15">10110</tspan>
+      <tspan x="650" dy="15">01001</tspan>
+      <tspan x="650" dy="15">11100</tspan>
+      <tspan x="650" dy="15">00011</tspan>
+      <tspan x="650" dy="15">10101</tspan>
+      <animate attributeName="y" from="-180" to="950" dur="22s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Binary Column 4 -->
+    <text x="950" y="80" fill="#00F0FF" font-family="monospace" font-size="10" opacity="0.7">
+      <tspan x="950" dy="15">00111</tspan>
+      <tspan x="950" dy="15">11000</tspan>
+      <tspan x="950" dy="15">01011</tspan>
+      <tspan x="950" dy="15">10100</tspan>
+      <tspan x="950" dy="15">00101</tspan>
+      <tspan x="950" dy="15">11010</tspan>
+      <tspan x="950" dy="15">01101</tspan>
+      <animate attributeName="y" from="-200" to="950" dur="28s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Binary Column 5 -->
+    <text x="1250" y="150" fill="#9D4EDD" font-family="monospace" font-size="10" opacity="0.7">
+      <tspan x="1250" dy="15">10010</tspan>
+      <tspan x="1250" dy="15">01101</tspan>
+      <tspan x="1250" dy="15">11010</tspan>
+      <tspan x="1250" dy="15">00101</tspan>
+      <tspan x="1250" dy="15">10110</tspan>
+      <tspan x="1250" dy="15">01001</tspan>
+      <tspan x="1250" dy="15">11100</tspan>
+      <animate attributeName="y" from="-120" to="950" dur="23s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Binary Column 6 -->
+    <text x="150" y="200" fill="#00F0FF" font-family="monospace" font-size="10" opacity="0.7">
+      <tspan x="150" dy="15">01011</tspan>
+      <tspan x="150" dy="15">10100</tspan>
+      <tspan x="150" dy="15">00101</tspan>
+      <tspan x="150" dy="15">11010</tspan>
+      <tspan x="150" dy="15">01101</tspan>
+      <tspan x="150" dy="15">10010</tspan>
+      <tspan x="150" dy="15">00111</tspan>
+      <animate attributeName="y" from="-220" to="950" dur="26s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Binary Column 7 -->
+    <text x="450" y="100" fill="#00F0FF" font-family="monospace" font-size="10" opacity="0.7">
+      <tspan x="450" dy="15">11000</tspan>
+      <tspan x="450" dy="15">01011</tspan>
+      <tspan x="450" dy="15">10100</tspan>
+      <tspan x="450" dy="15">00101</tspan>
+      <tspan x="450" dy="15">11010</tspan>
+      <tspan x="450" dy="15">01101</tspan>
+      <tspan x="450" dy="15">10010</tspan>
+      <animate attributeName="y" from="-130" to="950" dur="24s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Binary Column 8 -->
+    <text x="750" y="50" fill="#9D4EDD" font-family="monospace" font-size="10" opacity="0.7">
+      <tspan x="750" dy="15">00101</tspan>
+      <tspan x="750" dy="15">11010</tspan>
+      <tspan x="750" dy="15">01101</tspan>
+      <tspan x="750" dy="15">10010</tspan>
+      <tspan x="750" dy="15">00111</tspan>
+      <tspan x="750" dy="15">11000</tspan>
+      <tspan x="750" dy="15">01011</tspan>
+      <animate attributeName="y" from="-170" to="950" dur="21s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Binary Column 9 -->
+    <text x="1050" y="150" fill="#00F0FF" font-family="monospace" font-size="10" opacity="0.7">
+      <tspan x="1050" dy="15">10100</tspan>
+      <tspan x="1050" dy="15">00101</tspan>
+      <tspan x="1050" dy="15">11010</tspan>
+      <tspan x="1050" dy="15">01101</tspan>
+      <tspan x="1050" dy="15">10010</tspan>
+      <tspan x="1050" dy="15">00111</tspan>
+      <tspan x="1050" dy="15">11000</tspan>
+      <animate attributeName="y" from="-190" to="950" dur="27s" repeatCount="indefinite"/>
+    </text>
+    
+    <!-- Binary Column 10 -->
+    <text x="1350" y="80" fill="#9D4EDD" font-family="monospace" font-size="10" opacity="0.7">
+      <tspan x="1350" dy="15">01011</tspan>
+      <tspan x="1350" dy="15">10100</tspan>
+      <tspan x="1350" dy="15">00101</tspan>
+      <tspan x="1350" dy="15">11010</tspan>
+      <tspan x="1350" dy="15">01101</tspan>
+      <tspan x="1350" dy="15">10010</tspan>
+      <tspan x="1350" dy="15">00111</tspan>
+      <animate attributeName="y" from="-150" to="950" dur="22s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
